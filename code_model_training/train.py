@@ -1,4 +1,5 @@
 # Import packages
+import sklearn
 from sklearn.ensemble import VotingClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -11,7 +12,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import pandas as pd
 import joblib
-import gzip
+import gzip 
 
 
 # Load the dataset
